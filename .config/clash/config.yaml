@@ -1,0 +1,4 @@
+1. 你可以从TAG机场购买套餐(或者其他机场), 购买后, 可以获得订阅链接。
+2. 以TAG机场为例(https://tagss.pro/), 首页有[订阅转换]页面(https://nexconvert.com/), 将订阅链接填入后, 客户端选择clash就可以得到clash的订阅链接
+3. wget -O config.yaml $clash订阅链接
+4. config.yaml文件中将会有默认的端口号, 你可以修改端口号来调整配置
