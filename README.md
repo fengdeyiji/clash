@@ -56,6 +56,8 @@ $ ./clash
 确保clash运行后，在terminal的session中开启代理：
 ~~~bash
 $ export all_proxy=socks://127.0.0.1:1080
+$ export https_proxy=http://127.0.0.1:1079
+$ export http_proxy=http://127.0.0.1:1079
 $ curl google.com
 <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
 <TITLE>301 Moved</TITLE></HEAD><BODY>
